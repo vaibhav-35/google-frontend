@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    height: 20vh;
+}
+.nav{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-container {
+    align-items: center;
+    width: 20vw;
+    height: 10vh;
+    padding: 0 1rem;
+    display: flex;
+}
+.nav-container *{
+    width:4rem ;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+.svg{
+    width: 2rem;
+    height: 2rem;
+}
+.nav-link a:hover{
+    text-decoration: underline;
+}
+
+.dp img{
+    width: 2.8vw;
+    height: 2.8vw;
+}
+.svg a ,.dp a,.nav-link a {
+    list-style-type: none;
+    text-decoration: none;
+    color:black
+}
+.body{
+    height: 70vh;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 22vw;
+    min-width: 150px;
+}
+.search-box{
+    width: 45vw;
+    min-width: 200px;
+    height: 6.5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.4px solid rgb(199, 199, 199);
+    border-radius: 50px;
+}
+#text-area{
+    border:none;
+    width: 34vw;
+    resize: none;
+    outline: none;
+    overflow: hidden;
+}
+.search-box img{
+    width :50px
+}
+.search-icon img {
+    transform: rotate(-5deg);
+    width: 24px;
+}
+.searches{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 25vw;
+    min-width: 250px;
+    margin-top: 5vh;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    min-width:50px;
+    min-height: 30px;
+    width:250vw;
+    margin: 1vw;
+    background-color: rgb(250, 249, 249);
+    border-radius: 5px;
+}
+.btn:hover{
+    box-shadow: 1px 2px 1px 0 grey;
+}
+.lang *{
+    margin: 4px;
+}
+.footer{
+    background-color: rgb(224, 224, 224);
+    width: 100vw;
+    height:15vh;
+    align-items: baseline;
+    color:rgb(145, 145, 145)
+}
+.footer >div{
+    width: calc(calc(100vw)-150px);
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+    padding:0 2.2vw; 
+}
+.footer ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer li{
+    list-style-type:none;
+    padding-right: 18px;
+}
+.footer div a{
+    text-decoration: none;
+   
+}
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+}
